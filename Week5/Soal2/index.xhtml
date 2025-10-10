@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Reservation Hotel Room</title>
+
+    </head>
+    <body>
+
+        <h1>Reservation Hotel Room</h1>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            
+                <fieldset>
+                    <legend>Personal Date</legend>
+                    <p><label for="namamhs">Nama</label><br />
+                        <input type="text" id="namamhs" name="namamhs" size="30" />
+                    </p>
+
+                    <p><label for="gender">Gender</label><br />
+                        <input type="text" id="gender" name="gender" size="30" />
+                    </p>
+
+                    <p><label for="email">Email Address</label><br />
+                        <input type="text" id="email" name="email" size="30" />
+                    </p>
+
+                    <p><label for="telp">Telp Number</label><br />
+                        <input type="text" id="telp" name="telp" size="30" />
+                    </p>
+                </fieldset>
+               
+
+                <fieldset>
+                    <legend>Reservation Room from</legend>
+                    <p><label for="rgName">Reservation Nama</label><br />
+                        <input type="text" id="rgName" name="rgName" size="30" />
+                    </p>
+
+                    <p><label for="bookD">Booking date</label><br />
+                        <input type="text" id="bookD" name="bookD" size="30" />
+                    </p>
+                    
+                    <p><label for="roomT">Room Type</label><br />
+                        <select id="roomT" name="roomT">
+                            <option>Deluxe</option>
+                            <option>Standard</option>
+                            <option>Superior</option>
+                            <option>Junior Suite</option>
+                            <option>Suite</option>
+                            <option>Executive</option>
+                            <option>Presidential</option>
+                        </select>
+                    </p>
+
+                    <p><label for="bedT">Bed Type</label><br />
+                        <select id="bedT" name=" bedT">
+                            <option>Single bed</option>
+                            <option>Double bed</option>
+                            <option>Family bed</option>
+                        </select>
+                    </p>
+
+                    <p><label for="Breakfast">Breakfast</label><br />
+                        <input type="radio" id="with" name="bf" value="With Breakfast" />
+                        <label for="with">With Breakfast</label>
+                        <input type="radio" id="without" name="jk" value="Without Breakfast" />
+                        <label for="without">Without Breakfas</label>
+                    </p>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Payment</legend>
+
+                    <p><label for="Chekin">Chek in date</label><br />
+                        <input type="text" id="Chekin" name="Chekin" size="30" />
+                    </p>
+
+                    <p><label for="Chekout">Chek out date</label><br />
+                        <input type="text" id="Chekout" name="Chekout" size="30" />
+                    </p>
+                    
+                    <p><label for="payment">Payment Method</label><br />
+                        <select id="payment" name="payment">
+                            <option>chas</option>
+                            <option>transfer</option>
+                        </select>    
+                    </p>                
+                </fieldset>
+
+                <br/>
+            <input type="submit" name="submit" value="submit" />
+        </form>
+     
+    </body>
+</html>
