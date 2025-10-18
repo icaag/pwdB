@@ -1,0 +1,90 @@
+input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px groove;
+    border-radius: 8px;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 5px;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/736x/93/d6/ef/93d6ef0d92ec852a39dfc38ebc5cb598.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+form{
+   
+    width: 700px;
+    height: 1350px;
+    border: 1px hidden;
+    margin: 40px auto ;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+h1{
+    margin: 40px;
+    text-align: center;
+    color: teal;
+}
+
+select{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px groove;
+    border-radius: 8px;
+}
+
+input:focus,
+select:focus {
+    border-color: wheat;
+    box-shadow: 0 0 5px rgba(0, 128, 128, 0.3);
+    outline: none;
+}
+
+
+fieldset{
+    width: 600px;
+    border: 1px groove;
+    border-color: teal;
+    margin: 40px;
+    border-radius: 30px;
+}
+
+fieldset:hover {
+    border-color: teal;
+    box-shadow: 0 0 10px rgba(0, 128, 128, 0.2);
+}
+
+legend{
+    color: teal;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px ;
+    background: teal;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 1px 40px;
+}
+
+input[type="submit"]:hover {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 128, 128, 0.3);
+    color: teal;
+}
